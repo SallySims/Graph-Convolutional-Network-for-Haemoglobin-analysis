@@ -1,0 +1,23 @@
+# DHS data and boundary files are not redistributable: keep them out of the repository
+data/
+*.DTA
+*.dta
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.zip
+
+# Results contain unit-level (cluster-based) information derived from DHS data: do not commit
+outputs_lowhb/
+outputs/
+*.tif
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

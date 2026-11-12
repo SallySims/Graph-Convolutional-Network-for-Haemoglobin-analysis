@@ -1,0 +1,13 @@
+# Tested with Python 3.12. Minimum versions are those used to produce the published results.
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+statsmodels>=0.14
+geopandas>=1.0
+shapely>=2.0
+pyogrio>=0.9          # reading shapefiles and zipped shapefiles with geopandas
+rasterio>=1.4         # writes the GeoTIFF raster
+matplotlib>=3.8
+openpyxl>=3.1         # Excel tables
+adjustText>=1.0       # label placement on the map (optional; the script runs without it)
+reverse-geocoder>=1.5 # only for --area-source geonames (offline GeoNames gazetteer)
